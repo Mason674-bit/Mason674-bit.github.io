@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph {
+    color:rgb(0, 0, 0)
+}
+
+#span-1 {
+    background-color: red;
+    color:rgb(251, 255, 0)
+}
+
+#span-2 {
+    background-color: rgb(0, 255, 128);
+    color:rgb(25, 0, 255)
+}
+
+#second-paragraph {
+    color:rgb(0, 0, 0)
+}
+
+#span-3 {
+    background-color: rgb(167, 34, 255);
+    color:rgb(0, 17, 255)
+}
+
+#span-4 {
+    background-color: rgb(94, 138, 116);
+    color:rgb(7, 4, 27)
+}
+
+#third-paragraph {
+    color:rgb(0, 0, 0)
+}
+
+#span-5 {
+    background-color: rgb(189, 187, 190);
+    color:rgb(80, 126, 120)
+}
+
+#span-6 {
+    background-color: rgb(127, 41, 153);
+    color:rgb(239, 237, 255)
+}

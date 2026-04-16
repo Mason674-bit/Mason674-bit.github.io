@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#span-1 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#span-2 {
+    font-style: italic;
+}
+
+#paragraph-1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+#hyperlink {
+    text-decoration: none;
+    color: lime;
+}
+
+#container{
+    text-align: center;
+}

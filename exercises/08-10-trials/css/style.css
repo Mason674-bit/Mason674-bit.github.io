@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#paragraph-1 {
+    color: green;
+}
+
+#paragraph-2 {
+    color: #F711F7;
+}
+
+#span-1 {
+    color: red;
+}
+
+#span-2 {
+    color: yellow;
+}
+
+#span-3 {
+    color: blue;
+}
+
+#paragraph-4 {
+    background-color: skyblue;
+}
+
+#span-4 {
+    background-color: yellow;
+}
+
+#span-5 {
+    font-weight: 700;
+}
+
+#span-6 {
+    font-weight: 700;
+}
+
+#span-7 {
+    text-decoration: underline;
+}
+
+#span-8 {
+    font-size: 24px;
+}
+
+#EYEBROW {
+    font-size: 12;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#Fake-Heading {
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#Fake-Subheading {
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}

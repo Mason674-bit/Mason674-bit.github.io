@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#p1 {
+    color:aqua
+}
+
+.shadowed {
+    background-color: aquamarine;
+    margin: 24px;
+    padding: 24px;
+    /* xoffset y-offset blur-radius color */
+    box-shadow: inset 4px 4px 4px black,
+    4px 4px 4px red;
+}
+
+p {
+    /*serif, sans-serif, monospace, cursive, fantasy*/
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+}

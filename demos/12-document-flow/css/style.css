@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+p {
+    background-color: bisque;
+}
+
+span {
+    background-color: rgb(196, 255, 221);
+    display: block;
+}
+
+div {
+    background-color: rgb(252, 150, 150);
+    display: inline;
+}
+
+.narrow {
+    background-color: rgb(165, 127, 255);
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}

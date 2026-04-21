@@ -1,64 +1,25 @@
 .post-it {
     background-color: rgb(217, 255, 0);
+    margin: 24px;
     height: 200px;
     width: 200px;
-    margin-top: 24px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 24px;
     padding: 24px;
-    box-shadow: 10px 10px 10px hsla(0, 0%, 0%, 0.5);
     display: inline-block;
+    box-shadow: 10px 10px 10px hsla(0, 0%, 0%, 0.5);
 }
 
-.post-it-pink {
+.pink {
     background-color: rgb(248, 190, 253);
-    height: 200px;
-    width: 200px;
-    margin-top: 24px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 24px;
-    padding: 24px;
-    box-shadow: 10px 10px 10px hsla(0, 0%, 0%, 0.5);
-    display: inline-block;
 }
 
-.post-it-red {
+.red {
     background-color: rgb(253, 88, 88);
-    height: 200px;
-    width: 200px;
-    margin-top: 24px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 24px;
-    padding: 24px;
-    box-shadow: 10px 10px 10px hsla(0, 0%, 0%, 0.5);
-    display: inline-block;
 }
 
-.post-it-image {
+.image {
     background-color: rgb(255, 255, 255);
-    height: 200px;
-    width: 200px;
-    margin-top: 24px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 24px;
-    padding: 24px;
-    box-shadow: 10px 10px 10px hsla(0, 0%, 0%, 0.5);
-    display: inline-block;
 }
 
-.post-it-blue {
+.blue {
     background-color: rgb(88, 127, 253);
-    height: 200px;
-    width: 200px;
-    margin-top: 24px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 24px;
-    padding: 24px;
-    box-shadow: 10px 10px 10px hsla(0, 0%, 0%, 0.5);
-    display: inline-block;
 }

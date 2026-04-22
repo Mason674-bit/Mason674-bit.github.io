@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    border: 10px ridge green;
+    margin: 12px;
+    padding: 10px;
+    border-top-left-radius: 24%;
+    background-color: rgb(179, 248, 248);
+}

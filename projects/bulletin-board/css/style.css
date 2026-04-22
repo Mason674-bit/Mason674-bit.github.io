@@ -10,10 +10,12 @@
 
 .pink {
     background-color: rgb(248, 190, 253);
+    text-align: center;
 }
 
 .red {
     background-color: rgb(253, 88, 88);
+    text-align: center;
 }
 
 .image {
@@ -22,4 +24,8 @@
 
 .blue {
     background-color: rgb(88, 127, 253);
+}
+
+#yellow {
+    text-align: right;
 }

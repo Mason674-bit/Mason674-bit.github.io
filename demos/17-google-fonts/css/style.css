@@ -8,9 +8,9 @@
 
 body {
     max-width: 600px;
-    margin-top: 24px auto;
     font-family: sans-serif;
     text-align: center;
+    border: solid;
 }
 
 h1 {

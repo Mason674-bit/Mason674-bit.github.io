@@ -37,13 +37,7 @@ body {
     margin-left: 12px;
 }
 
-h1 {
+.text-bar {
     padding: 2px;
     text-align: center;
-    margin-right: 500px;
-}
-
-p {
-    width: 600px;
-    margin-left: 50px;
 }

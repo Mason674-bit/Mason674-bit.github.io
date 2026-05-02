@@ -10,8 +10,8 @@ body {
 #navbar {
     background: linear-gradient(
         to bottom,
-        rgb(0, 102, 128),
-        #8cdce2
+        rgb(128, 83, 0),
+        #c0b84b
     );
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,7 @@ body {
 
 #navbar .cta-button {
     background-color: white;
-    color: rgb(0, 113, 128);
+    color: rgb(128, 119, 0);
     border-radius: 36px;
     padding: 16px 24px;
     font-size: 20px;

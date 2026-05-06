@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#centered-hero {
+    background-image: url(../images/sculptor_cats.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#centered-hero .hero-content {
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255,0.815);
+    padding: 36px;
+    border-radius: 60px;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+}
+
+.hero-content h3 {
+    font-size: 36px;
+}
+
+/* NAVBAR */
+
+#navbar {
+    background: linear-gradient(
+        to bottom,
+        rgb(128, 94, 0),
+        #221400
+    );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar img {
+    width: 200px;
+}
+
+#navbar .cta-button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(170, 110, 30);
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 12px;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(215, 248, 220);
+}
+
+/* navbar */
+
+#navbar {
+    background: linear-gradient(
+        to right,
+        rgb(132, 173, 132),
+        #033503
+    );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+/* layout */
+
+#layout {
+    max-width: 8000px;
+    margin: 8px auto;
+}
+
+.layout-header {
+    background-image: url("../images/nature_hero.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    padding: 10%;
+}
+
+.layout-header h1 {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    font-family: "Merriweather", serif;
+}
+
+/* Gallery */
+
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 10px solid rgb(32, 73, 26);
+    background-color: rgb(96, 160, 109);
+    padding: 54px;
+    gap: 24px;
+    columns: 3 auto;
+    column-gap: 45px;
+}
+
+.basic-grid-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}

@@ -72,15 +72,23 @@ body {
 
 /* Mobile Breakpoint */
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
 
-    #basic-grid-gallery {
+    .basic-grid-gallery {
         display: grid;
         grid-template-columns: 1fr;
+        margin: 10px;
     }
 
     #navbar {
         font-size: 15px;
         flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    
+    .layout-header h1 {
+        font-size: 70px;
     }
 }
